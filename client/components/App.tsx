@@ -15,7 +15,11 @@ function App() {
       {/* Subtitle */}
       <Subtitle subtitle="My dogs using their useless superpowers for nothing" />
       {/* dogs */}
-      <Dog2 name="Jake" breed="hound" superpower="Humps everything" />
+      <Dog2
+        name="Brutus"
+        breed="hound"
+        superpower="Humps anything and everything"
+      />
 
       <Dog
         name="Pudge"

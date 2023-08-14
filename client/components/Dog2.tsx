@@ -9,11 +9,17 @@ function Dog2(props: Props) {
     <div className="dog-wrapper">
       <div className="dog">
         <div className="dog-name-plate">
-          <span className="dog-name">{props.name}</span>
+          <h3 className="dog-name">{props.name}</h3>
           <span className="dog-breed">{props.breed}</span>
         </div>
         <span className="dog-superpower">{props.superpower}</span>
-        <img src="./images/hound.png" alt="hound named jake" />
+        <div className="dog-pic">
+          <img
+            className="dog-img"
+            src="./images/hound.png"
+            alt="hound named jake"
+          />
+        </div>
       </div>
     </div>
   )

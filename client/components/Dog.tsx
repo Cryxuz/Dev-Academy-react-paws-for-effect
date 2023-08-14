@@ -14,7 +14,11 @@ function Dog(props: Props) {
         </div>
         <span className="dog-superpower">{props.superpower}</span>
         <div className="dog-pic">
-          <img src="./images/bulldog.png" alt="" />
+          <img
+            className="dog-img"
+            src="./images/bulldog.png"
+            alt="Pudge, the bulldog"
+          />
         </div>
       </div>
     </div>
