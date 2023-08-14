@@ -4,7 +4,7 @@ interface Props {
   superpower: string
 }
 
-function Dog(props: Props) {
+function Dog2(props: Props) {
   return (
     <div className="dog-wrapper">
       <div className="dog">
@@ -13,12 +13,10 @@ function Dog(props: Props) {
           <span className="dog-breed">{props.breed}</span>
         </div>
         <span className="dog-superpower">{props.superpower}</span>
-        <div className="dog-pic">
-          <img src="./images/bulldog.png" alt="" />
-        </div>
+        <img src="./images/hound.png" alt="hound named jake" />
       </div>
     </div>
   )
 }
 
-export default Dog
+export default Dog2
